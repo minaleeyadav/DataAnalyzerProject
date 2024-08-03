@@ -17,3 +17,6 @@ A Django-based web application that allows users to upload CSV files, perform da
 ### Installation
 
 1. Clone the repository:
+## Sample CSV File
+
+A sample CSV file named `sample_data.csv` is provided in the `samples` folder for testing purposes. This file contains sample data that can be used to test the file upload, data processing, and visualization features of the application.

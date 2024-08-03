@@ -1,0 +1,11 @@
+Name,Age,Gender,Occupation,Salary,YearsExperience
+John Doe,28.0,Male,Engineer,50000.0,5.0
+Jane Smith,34.0,Female,Doctor,75000.0,10.0
+Emily Johnson,22.0,Female,Student,,1.0
+Michael Brown,45.0,Male,Teacher,55000.0,20.0
+Jessica White,29.0,Female,Designer,47000.0,4.0
+George Black,52.0,Male,Manager,90000.0,25.0
+Sarah Green,31.0,Female,Scientist,80000.0,7.0
+Robert Blue,39.0,Male,Artist,35000.0,8.0
+Laura Yellow,,Female,Writer,40000.0,
+Mark Orange,41.0,Male,Chef,48000.0,15.0
