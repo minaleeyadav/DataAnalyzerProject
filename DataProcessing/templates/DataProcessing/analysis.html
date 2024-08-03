@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analysis</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Data Analysis</h1>
+    <p>File uploaded successfully: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+    <h2>First 5 Rows of Data</h2>
+    <div>{{ first_five_rows|safe }}</div>
+    <h2>Summary Statistics</h2>
+    <div>{{ summary_stats|safe }}</div>
+    <h2>Missing Values</h2>
+    <div>{{ missing_values|safe }}</div>
+    <h2>Histograms</h2>
+    <div>
+        {% for hist in histograms %}
+            <img src="{% static hist %}" alt="Histogram">
+        {% endfor %}
+    </div>
+</body>
+</html>
